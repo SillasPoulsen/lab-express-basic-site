@@ -1,13 +1,16 @@
-.frontpage {
+.frontpage,
+.about,
+.work {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
 }
 
-.frontpage p {
+p {
   width: 600px;
   text-align: center;
+  line-height: 1.6;
 }
 
 a {
@@ -30,4 +33,9 @@ ul {
 
 body {
   background-color: rgba(255, 228, 196, 0.562);
+}
+
+.about > img,
+.work > img {
+  width: 600px;
 }
